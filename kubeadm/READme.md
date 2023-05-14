@@ -138,6 +138,8 @@ mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
+###or the following command if you are root
+export KUBECONFIG=/etc/kubernetes/admin.conf
 ## To verify, if kubectl is working or not, run the following command.
 kubectl get pods -A
 ```sh
