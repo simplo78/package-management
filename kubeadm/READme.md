@@ -1,6 +1,6 @@
-#  **<span style="color:green">Landmark Technologies.</span>**
-### **<span style="color:green">Contacts: +1437 215 2483<br> WebSite : <http://mylandmarktech.com/></span>**
-### **Email: mylandmarktech@gmail.com**
+#  **<span style="color:green">Tajeken Technologies.</span>**
+### **<span style="color:green">Contacts: 917-995-6597<br> WebSite : <http://letaglifowa.org/></span>**
+### **Email: simplicetajeken@yahoo.fr**
 
 
 
@@ -139,6 +139,7 @@ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 ###or the following command if you are root
+
 export KUBECONFIG=/etc/kubernetes/admin.conf
 ## To verify, if kubectl is working or not, run the following command.
 kubectl get pods -A
